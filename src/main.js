@@ -4,8 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 //按需引用
-import {Button,Row,Col,Swipe,SwipeItem,Lazyload} from 'vant'
-Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem).use(Lazyload)
+import {Button,Row,Col,Swipe,SwipeItem,Lazyload,List} from 'vant'
+Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem).use(Lazyload).use(List)
 
 //全局引用，不推荐
 // import Vant from 'vant'
